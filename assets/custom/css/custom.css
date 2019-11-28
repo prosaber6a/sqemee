@@ -1,0 +1,93 @@
+body {
+	font-family: Open Sans,sans-serif;
+	font-weight: 400;
+	background: #fff;
+	color: #002d5b;
+}
+.main-nav{background-color: #0383FF;}
+.main-nav ul.navbar-nav li.nav-item a.nav-link{color: #fff;}
+.main-nav ul.navbar-nav li.nav-item a.nav-link:hover{color: #b3daff;}
+.content{
+	background-image: url("../../img/home-hero.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.main-section {
+	/* background: linear-gradient(to bottom, #0082ff,#4da8ff); */
+	background: linear-gradient(to bottom, rgba(0, 130, 255, 1), rgba(77, 168, 255, .8));
+	color: #fff;
+	border: none;
+	border-radius: unset;
+}
+.main-section .main-section-logo {
+	background-color: #4DA8FF;
+	padding: 20px;
+	border-radius: 50%;
+	height: 120px;
+}
+
+.main-section input:focus{
+	box-shadow: none;
+}
+
+.main-section .input-group {
+	
+}
+.main-section .input-group:after, .main-section .input-group:before{
+	content: none;
+}
+.main-section .input-group input[type=text] {border: none;height: 50px;}
+.main-section .input-group-prepend {height: 50px;}
+
+.main-section .input-group-text {
+	background-color: #fff;
+	border: none;
+}
+.main-section .input-group-text .fa-search{
+	color: #4DA8FF;
+}
+.main-section .input-group-append{
+	background-color: #fff;
+	padding: 7px;
+	border-top-right-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+}
+.main-section .input-group-append a.btn {
+	background-color: #026bcf;
+	border-color: #026bcf;
+	padding: .305rem 1.75rem;
+	border-radius: 20px;
+}
+
+.datepicker-row .input-group-append{
+	display: none !important;
+}
+.datepicker-row .date-box{
+	border-top-right-radius: .25rem !important;
+    border-bottom-right-radius: .25rem !important;
+}
+
+
+
+
+
+
+.main-section .btn-parking {
+	border-radius: 20px;
+	padding: .305rem 1.75rem;
+	margin-top: 20px;
+	background-color: #026BCF;
+}
+
+
+
+
+.main-section .footer {
+	margin: 100px 0 auto;
+}
+
+.main-section .footer li {
+	background: transparent;
+	border: none;
+	padding: 0 5px;
+}

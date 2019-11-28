@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>SpotHero - Park Smarter. | Reserve Parking Now &amp; Save</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    
+    <!-- font awesoe -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome/css/all.css">
+    <!-- datepicker -->
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <!-- googel font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="assets/custom/css/custom.css">
+
+    
+  </head>
+  <body>
+
+
+  <!-- start nav -->
+  <nav class="navbar navbar-expand-lg navbar-light main-nav">
+    <a class="navbar-brand" href="#">
+      <img src="assets/img/logo.png" height="40" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Become A Host</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Signup</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+  <!-- end nav -->
+
+<div class="content">
+  <!-- start jumbotron  -->
+  <div class="jumbotron main-section">
+    <div class="container text-center">
+      <h1 class="display-4"><img src="assets/img/logo-2.png" class="main-section-logo"></h1>
+      <h2 class="">On Demand Parking, Anywhere, Anytime</h2>
+      <form action="" method="post">
+
+        <div class="row">
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fa fa-search"></i></span>
+              </div>
+              <input type="text" class="form-control" placeholder="Address, Place or city search">
+              <div class="input-group-append">
+                <a href="#" class="btn btn-primary" role="button">Search</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            
+
+            <div class="row datepicker-row">
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="input-group">
+                  <!-- <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar-week"></i></span>
+                  </div> -->
+                  <input type="text" class="form-control date-box" placeholder="ARRIVING ON" id="arriving_on">
+                </div>
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="input-group">
+                  <!-- <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar-week"></i></span>
+                  </div> -->
+                  <input type="text" class="form-control date-box" placeholder="LEAVING ON" id="leaving_on">
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
+        </div>
+
+        
+        <a class="btn btn-primary btn-lg btn-parking" href="#" role="button"><i class="fa fa-paper-plane"></i> Find Parking Near Me</a>
+            
+      </form>
+      
+    </div>
+    <ul class="list-group list-group-horizontal justify-content-center footer">
+        <li class="list-group-item">Fast Prepay</li>
+        <span>|</span>
+        <li class="list-group-item">Mobile Parking Pas</li>
+        <span>|</span>
+        <li class="list-group-item">Easy Cancellation</li>
+    </ul>
+  </div>
+  <!-- ./ end jumbotron -->
+</div>
+
+    
+  <!-- jquery -->
+  <script src="assets/vendor/jquery/jquery-3.3.1.slim.min.js"></script>
+ 
+  <!-- bootstrap -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- date picker -->
+  <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(function(){
+      $('#arriving_on').datetimepicker({ footer: true, modal: true, uiLibrary: 'bootstrap4', iconsLibrary: 'fontawesome'});
+      $('#leaving_on').datetimepicker({ footer: true, modal: true, uiLibrary: 'bootstrap4', iconsLibrary: 'fontawesome'});
+    });
+  </script>
+
+  </body>
+</html>
